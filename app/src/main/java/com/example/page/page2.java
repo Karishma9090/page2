@@ -29,7 +29,7 @@ public class page2 extends AppCompatActivity {
         Backbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(page2.this, MainActivity.class));
+                startActivity(new Intent(page2.this, signuppage.class));
             }
         });
     }
